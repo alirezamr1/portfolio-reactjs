@@ -3,6 +3,7 @@ import {
   ArrowRight,
   ChartNoAxesCombined,
   ChevronDown,
+  Download
 } from "lucide-react";
 import AnimatedBorderButton from "@/components/AnimatedBorderButton.jsx";
 
@@ -88,7 +89,10 @@ export default function Hero() {
                         <Button size="lg">
                             Contact Me <ArrowRight className="w-5 h-5" /> 
                         </Button>
-                        <AnimatedBorderButton />
+                        <AnimatedBorderButton>
+                            <Download className="w-5 h-5" />
+                                  Download CV
+                        </AnimatedBorderButton>
                     </div>
 
                     {/* Social Links */}
