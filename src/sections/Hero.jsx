@@ -127,7 +127,7 @@ export default function Hero() {
                             />
                             <div className="relative glass rounded-3xl p-2 glow-border">
                                 <img 
-                                src="/profile-photo.jpg" 
+                                src="/profile.png" 
                                 alt="Alireza Mirzazadeh"
                                 className="w-full aspect-[4/5] object-cover rounded-2xl"
                                 />
